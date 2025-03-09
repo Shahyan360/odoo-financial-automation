@@ -1,0 +1,1 @@
+<odoo noupdate="1"><record id="net30" model="account.payment.term"><field name="name">Fictional Approved Net 30</field><field name="lab_credit_controlled">True</field><field name="line_ids" eval="[(5,0,0),(0,0,{'value':'percent','value_amount':100,'nb_days':30})]"/></record></odoo>

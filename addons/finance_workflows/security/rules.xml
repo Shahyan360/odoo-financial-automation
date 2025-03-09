@@ -1,0 +1,6 @@
+<odoo>
+<record id="finance_credit_application_company" model="ir.rule"><field name="name">finance_credit_application company boundary</field><field name="model_id" ref="model_finance_credit_application"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="finance_commission_plan_company" model="ir.rule"><field name="name">finance_commission_plan company boundary</field><field name="model_id" ref="model_finance_commission_plan"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="finance_commission_entry_company" model="ir.rule"><field name="name">finance_commission_entry company boundary</field><field name="model_id" ref="model_finance_commission_entry"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="finance_statement_company" model="ir.rule"><field name="name">finance_statement company boundary</field><field name="model_id" ref="model_finance_statement"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+</odoo>
